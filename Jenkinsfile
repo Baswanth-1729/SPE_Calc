@@ -40,7 +40,7 @@ pipeline {
                 dockerImage.push()
 		tagLatest = "docker tag " + registry  + ":$BUILD_NUMBER" + " " + registry + ":latest"
 		pushlatest= "docker push " + registry
-		shtagLatest
+		sh tagLatest
 		sh pushlatest
               }
             }
