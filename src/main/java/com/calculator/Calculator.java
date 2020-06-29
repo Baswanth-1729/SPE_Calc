@@ -20,7 +20,7 @@ public class Calculator {
 	public static long multiply(int a, int b) {
 		return a * b;
 	}
-
+	//lol##
 	public static double divide(int a, int b) {
 		double result;
 		if (b == 0) {
