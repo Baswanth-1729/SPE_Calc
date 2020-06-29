@@ -21,6 +21,7 @@ public class Calculator {
 		return a * b;
 	}
 	//lol##
+//god
 	public static double divide(int a, int b) {
 		double result;
 		if (b == 0) {
