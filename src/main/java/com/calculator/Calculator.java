@@ -16,7 +16,7 @@ public class Calculator {
 	public static int subtract(int a, int b) {
 		return a - b;
 	}
-
+	//lol
 	public static long multiply(int a, int b) {
 		return a * b;
 	}
